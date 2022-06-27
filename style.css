@@ -8,6 +8,14 @@
   list-style: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100%;
+}
 
 header {
   width: 100%;
@@ -20,7 +28,14 @@ header {
   background-color: white;
 }
 
-
+a:link {
+  color: inherit;
+  text-decoration: none;
+  /* background-color: blue; */
+}
+a:hover {
+  background-color: bisque;
+}
 .navbar {
   display: flex;
   gap: 50px;
@@ -35,7 +50,8 @@ img {
 }
 .container {
   display: flex;
-  
+  padding: 5px;
+
   /* align-items: flex-end; */
   /* flex-direction: row-reverse; */
   /* flex-direction: column; */
@@ -62,6 +78,7 @@ li {
   padding: 10px;
   flex: 3;
   order: 3;
+}
 
-
-
+.japanstreet {
+}
