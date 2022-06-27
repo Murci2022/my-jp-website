@@ -2,10 +2,10 @@
 
 * {
   box-sizing: border-box;
-  /* background-color: rgb(117, 47, 58); */
+
   margin: 0px;
   padding: 0px;
-  /* font-family: font-family: 'Poppins', sans-serif; */
+
   font-family: "Poppins", sans-serif;
   list-style: none;
 }

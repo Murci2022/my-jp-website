@@ -16,8 +16,11 @@ a:link {
   text-decoration: none;
   /* background-color: blue; */
 }
+
 a:hover {
-  background-color: bisque;
+  background-color: rgb(234, 222, 208);
+  border: 1px solid black;
+  padding: 5px;
 }
 .navbar {
   display: flex;
@@ -34,10 +37,10 @@ img {
 .container {
   display: flex;
   padding: 5px;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  flex-direction: column;
 
-  /* align-items: flex-end; */
-  /* flex-direction: row-reverse; */
-  /* flex-direction: column; */
   gap: 10px;
 }
 li {
@@ -56,6 +59,7 @@ li {
   flex: 1;
   order: 1;
 }
+
 .box-3 {
   border: 1px solid black;
   padding: 10px;
@@ -63,5 +67,24 @@ li {
   order: 3;
 }
 
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: beige;
+  display: wrap;
+}
+
 .japanstreet {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 80%;
+  margin: 30px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+img {
+  min-width: 200px;
 }
